@@ -12,9 +12,6 @@ projects[admin_menu][version] = "1.8"
 
 projects[admin_theme][version] = "1.x-dev"
 
-projects[administerusersbyrole][download][type] = git
-projects[administerusersbyrole][download][revision] = 087c2097690fbee2abf24dceb5d93cfa
-
 projects[advanced_help][version] = "1.2"
 
 projects[advanced_profile][version] = "1.0-beta3"
@@ -60,9 +57,6 @@ projects[fb_social][version] = "1.0-beta9"
 projects[fckeditor][version] = "2.1"
 
 projects[feeds][version] = "1.0-beta13"
-
-projects[feeds_tamper][download][type] = git
-projects[feeds_tamper][download][revision] = 09e91267240a606ea7706f999c005743
 
 projects[file_aliases][version] = "1.1"
 
