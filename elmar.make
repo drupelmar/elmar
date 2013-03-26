@@ -13,7 +13,7 @@ projects[admin_menu][version] = "1.8"
 projects[admin_theme][version] = "1.x-dev"
 
 projects[administerusersbyrole][download][type] = git
-projects[administerusersbyrole][download][revision] = 3b36a44a1fbd30dc709db8a895a43aee
+projects[administerusersbyrole][download][revision] = "3b36a44a1fbd30dc709db8a895a43aee"
 
 projects[advanced_help][version] = "1.2"
 
