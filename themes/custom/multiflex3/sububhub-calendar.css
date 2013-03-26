@@ -1,0 +1,507 @@
+/*  calendar calendar table styles  */
+
+.calendar-calendar td .inner .view-field .node-title,
+.calendar-calendar td .inner .view-field .node-title a {
+  color:blue;
+font-weight:bold;
+}
+
+
+.calendar-calendar tr.odd, .calendar-calendar tr.even {
+  background-color:#fff;
+}
+.calendar-calendar table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin:0 auto;
+  padding:0;
+  width: 100%; /* Setting at 100% causes problem in Internet Explorer. */
+}
+.calendar-calendar .month-view table {
+  border:none;
+  padding:0;
+  margin:0;
+  width:100%;
+}
+
+  /* IE needs a little help to get the side by side tables to the right size */
+.calendar-calendar .year-view td {
+  width:32%;
+  padding:1px;
+  border:none;
+}
+
+.calendar-calendar .year-view td table td {
+  width:13%;
+  padding:0;
+}
+
+.calendar-calendar tr {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+.calendar-calendar th {
+  color: #fff;
+  background-color: #ccc;
+  text-align: center;
+  margin:0;
+}
+.calendar-calendar th a {
+  font-weight: bold;
+  color: #fff;
+  background-color: #ccc;
+}
+.calendar-calendar td {
+  width: 12%; /* 14% is about 1/7 of total table width */
+  min-width: 12%;
+  border: 1px solid #ccc;
+  color: #777;
+  text-align: right;
+  vertical-align: top;
+  margin: 0;
+  padding:0;
+}
+
+/* simplify the mini calendar by removing borders */
+.calendar-calendar .mini {
+  border:none;
+ }
+
+/* format for the week number in the first cell */
+.calendar-calendar td.week {
+  width:1%;
+  min-width:1%;
+  }
+.calendar-calendar .week {
+  clear:both;
+  font-style: normal;
+  color: #555;
+  font-size: 0.8em;
+}
+.calendar-calendar .week a {
+  font-weight:normal;
+}
+
+/* IE6 does not support min-height, using Min-Height fast hack from http://www.dustindiaz.com/min-height-fast-hack */
+.calendar-calendar .inner {
+ min-height:1px;
+  height:auto !important;
+  height:5em;
+  padding:0;
+  margin:0;
+}
+.calendar-calendar .inner div {
+  padding:0;
+  margin:0;
+}
+/* Make sure paagraphs buried in calendar cells use padding, not margins, for separation so the background color doesn't come through. */
+.calendar-calendar .inner p {
+  padding:0 0 .8em 0;
+  margin:0;
+}
+.calendar-calendar td a {
+  font-weight: bold;
+  text-decoration: none;
+}
+.calendar-calendar td a:hover {
+  text-decoration: underline;
+}
+.calendar-calendar td.year, 
+.calendar-calendar td.month {
+  text-align: center;
+}
+
+/* format days of the week header cells */
+.calendar-calendar th.days {
+  color: #ccc;
+  background-color: #224;
+  text-align: center;
+  padding:1px;
+  margin:0;
+ }
+
+/*  floating day number div  */
+.calendar-calendar div.day {
+  /*float: right;
+  text-align: center;
+  padding: 0.125em 0.25em 0 0.25em;
+  margin: 0;
+  
+  border: 1px solid gray;
+  border-width: 0 0 1px 1px;
+  clear:both;
+  width:1.5em;*/
+ background: url("images/act-color-tab-num.png") repeat scroll 0 0 transparent;
+
+float: none;
+text-align: center;
+font-size:2em;
+height:1.0em;
+width: auto;
+
+}
+div.day h2{
+	color:white;
+}
+
+.calendar-calendar div.day a{
+	color:white;
+vertical-align:center;
+}
+
+/*  individual node container  */
+.calendar-calendar div.calendar {
+  background-color: #fff;
+  border: solid 1px #ddd;
+  text-align: left;
+  margin:0 .25em .25em 0;
+  width: 96%;
+  float:right; /* needed to keep IE from hiding the floating day number */
+  clear:both;
+}
+/* No floating of day view content because there is no floating day number */
+.calendar-calendar .day-view div.calendar {
+  float:none;
+  width:98%;
+  margin:1% 1% 0 1%;
+}
+
+.calendar-calendar div.title {
+  font-size:.8em;
+  text-align:center;
+}
+
+.calendar-calendar div.title a {
+  color: #000;
+}
+.calendar-calendar div.title a:hover {
+  color: #c00;
+}
+.calendar-calendar .content {
+  clear:both;
+  padding: 3px;
+  padding-left: 5px;
+}
+.calendar div.form-item {
+  white-space: normal;
+}
+
+table td.mini, 
+table th.mini, 
+table.mini td.week {
+  padding:0 1px 0 0;
+  margin:0;
+  }
+table td.mini a {
+  font-weight:normal;
+  }
+.calendar-calendar .mini-day-off {
+  padding:0px;
+}
+.calendar-calendar .mini-day-on {
+  padding:0px;
+}
+table .mini-day-on a {
+  text-decoration:underline;
+  }
+.calendar-calendar .mini .title {
+  font-size:.8em;
+  }
+.mini .calendar-calendar .week {
+  font-size:.7em;
+  }
+.mini-row {
+  width:100%;
+  border:none;
+}
+.mini{
+  width:32%;
+  vertical-align:top;
+  }
+
+
+/* formatting for the legend stripe and block */
+.calendar-calendar .stripe {
+  height: 5px;
+  width: auto;
+  font-size:1px !important;
+  line-height:1px !important;
+}
+.calendar-calendar .day-view .stripe {
+  width:100%;
+}
+table.calendar-legend {
+  background-color:#ccc;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+table.calendar-legend tr.odd .stripe,
+table.calendar-legend tr.even .stripe {
+  height:12px !important;
+  font-size:9px !important;
+  line-height:10px !important;
+}
+.calendar-legend td {
+  text-align:left;
+}
+
+.calendar-empty {
+  font-size:1px;
+  line-height:1px;
+}
+
+/* formatting for the full day view */  
+.calendar-calendar td.calendar-agenda-hour {
+  font-family:serif;
+  text-align:right;
+  border:none;
+  border-top:1px #333 dotted;
+  padding-top:.25em;
+  width:1%;
+}
+.calendar-calendar td.calendar-agenda-no-hours {
+  min-width:1%;
+}
+.calendar-calendar td.calendar-agenda-hour .calendar-hour {
+  font-size:1.2em;
+  font-weight:bold;
+}
+.calendar-calendar td.calendar-agenda-hour .calendar-ampm {
+  font-size:1em;
+}
+.calendar-calendar td.calendar-agenda-items {
+  border:2px white;
+  text-align:left;
+}
+.calendar-calendar td.calendar-agenda-items div.calendar {
+  width:auto;
+  padding:.25em;
+  margin:0;
+}
+.calendar-calendar div.calendar div.inner .calendar-agenda-empty {
+  width:100%;
+  text-align:center;
+  vertical-align:middle;
+  padding:1em 0;
+  background-color:#fff;
+}
+
+/* the popup date selector for jumping to a new date */
+.calendar-date-select form {
+  text-align:right;
+  float:right;
+  width:25%;
+}
+.calendar-date-select div, 
+.calendar-date-select input, 
+.calendar-date-select label {
+  text-align:right;
+  padding:0;
+  margin:0;
+  float:right;
+  clear:both;
+}
+.calendar-date-select .description {
+  float:right;
+}
+.calendar-label {
+  font-weight:bold;
+  display:block;
+  clear:both;
+}
+
+.calendar-calendar div.date-nav {
+  background-color:#ccc;
+  color:#777;
+  padding:0.2em;
+  width:auto;
+  border:1px solid #ccc;
+}
+.calendar-calendar div.date-nav a, 
+.calendar-calendar div.date-nav h3 {
+  color:#777;
+}
+.calendar-calendar th.days {
+ background: url("images/act-color-tab.png") repeat scroll 0 0 transparent;
+border:2px solid white;
+color:white;
+font-size:1.6em;
+font-weight:normal;
+height:37px;
+border-bottom:none;
+
+}
+.panels-flexible-row-47-9-inside  th.days, .frontent th.days {
+	background: url("images/ent-color-tab.png") repeat scroll 0 0 transparent;
+
+height: 30px;
+}
+
+
+
+
+.calendar-calendar td.empty {
+  background:#ccc;
+  border-color:white;
+}
+.calendar-calendar table.mini td.empty {
+  background:#fff;
+  border-color:#fff;
+}
+
+.calendar-calendar td div.day {
+  border:1px solid white;
+ /* border-top:none;
+  border-right:none;
+
+  margin-bottom:2px;
+*/
+}
+.calendar-calendar td .inner div,
+.calendar-calendar td .inner div a {
+  background:#eee;
+}
+/* Set small font size for all items in calendar div, themes can override this. */
+/* Use x-small instead of em to avoid multiplying effect in nested items. */
+.calendar-calendar div.calendar {
+  border:none;
+  font-size:x-small;
+}
+.calendar-calendar td .inner div.calendar div,
+.calendar-calendar td .inner div.calendar div a {
+  border:none;
+  background:#ffc;
+  padding:0 2px;
+}
+.calendar-calendar td .inner div.calendar div.calendar-more,
+.calendar-calendar td .inner div.calendar div.calendar-more a {
+  color:#444;
+  background:#fff;
+  text-align:right;
+}
+
+.calendar-calendar td .inner .view-field a  {
+ font-weight:bold;
+color:#0079AB;
+font-size:1em;
+}
+.calendar-calendar td .inner .view-field a:hover {
+	background-color: #e3f5f8;
+color:#2a5a8a;
+}
+.calendar-calendar td .inner .view-field a popup  {
+ font-weight:normal;
+ color:#444;
+
+}
+
+.calendar-calendar td span.date-display-single,
+.calendar-calendar td span.date-display-start,
+.calendar-calendar td span.date-display-end,
+.calendar-calendar td span.date-display-separator {
+  font-weight:bold;
+}
+.calendar-calendar td .inner div.day a {
+  color:#4b85ac;
+background:none;
+line-height:1.1em;
+font-weight:normal;
+
+}
+.calendar-calendar tr td.today,
+.calendar-calendar tr.odd td.today,
+.calendar-calendar tr.even td.today {
+  background-color:#C3D6E4;
+}
+.calendar-calendar td .inner div.calendar div div.view-data-node-data-field-date-field-date-value {
+  border-bottom:1px solid #ccc;
+}
+div#sidebar-left.sidebar .calendar-calendar th.days { 
+background:none;
+background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;    
+color: #777777;   
+ font-weight: bold;
+font-size:1em;
+height:auto;
+}
+.panels-flexible-row-40-8-inside .calendar-calendar th.days, .panels-flexible-row-47-8 .calendar-calendar th.days, .panels-flexible-row-48-8-inside .calendar-calendar th.days, .frontent .calendar-calendar th.days, .frontact .calendar-calendar th.days{ 
+
+background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;    
+color: white;   
+ font-weight: bold;
+font-size:1em;
+height:auto;
+}
+.panels-flexible-row-48-9-inside  th.days {
+	background: url("images/barg-color-tab.png") repeat scroll 0 0 transparent;
+text-color: white;
+text-align:center;
+height: 30px;
+}
+
+.panels-flexible-row-47-9-inside .calendar-calendar div.day,.view-entertainment-calendar-front div.day, .frontent .calendar-calendar div.day{
+    background: url("images/ent-color-tab-num.png") repeat scroll 0 0 transparent;
+}
+.panels-flexible-row-48-9-inside .calendar-calendar div.day, .view-bargain-calendar div.day, .view-bargain-calendar-front div.day{
+    background: url("images/barg-color-tab-num.png") repeat scroll 0 0 transparent;
+}
+
+
+.panels-flexible-row-47-8-inside .calendar-calendar th.days,.view-entertainment-calendar-front th.days, .frontent .calendar-calendar th.days {
+    background: url("images/ent-color-tab.png") repeat scroll 0 0 transparent;
+
+}
+.panels-flexible-row-48-8-inside .calendar-calendar th.days, .view-bargain-calendar th.days, .view-bargain-calendar-front th.days{
+    background: url("images/barg-color-tab.png") repeat scroll 0 0 transparent;
+  /*  border-color: white white -moz-use-text-color;
+    border-style: solid solid none;
+    border-width: 2px 2px medium;
+    color: white;
+    font-size: 1.6em;
+    font-weight: normal;
+    height: 37px; */
+}
+.calendar-calendar .month a{
+	background:none
+line-height:1em;
+}
+
+/*
+.calendar-calendar th.suneven{
+	background:blue;
+}
+.calendar-calendar th.moneven{
+	background:green;
+}
+
+.calendar-calendar th.tueeven{
+	background:yellow;
+}
+
+.calendar-calendar th.weneven{
+	background:black;
+}
+
+.calendar-calendar th.thueven{
+	background:grey;
+}
+
+.calendar-calendar th.frieven{
+	background:brown;
+}
+.calendar-calendar th.sateven{
+	background:red;
+}
+
+
+*/
+
+/* The following are not used by default but are available for themes */
+.calendar-calendar td.past {}
+.calendar-calendar td.future {}
+.calendar-calendar td.has-events {}
+.calendar-calendar td.has-no-events {}

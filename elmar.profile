@@ -1,5 +1,5 @@
 <?php
 /**
  *  @file
- * Installation profile for MySite.com
+ * Installation profile for elmar.mobi
  */

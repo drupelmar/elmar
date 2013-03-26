@@ -1,0 +1,236 @@
+ div.wrapper1 div.head_wrap {
+    background-image: url("images/seekvic/frame_head_tile.png");
+    background-repeat: repeat-x;
+    height: 130px;
+    position: relative;
+}
+  div.wrapper1 div.header1 {
+    height: 130px;
+    margin: 0 auto;
+    position: relative;
+    width: 980px;
+}
+div.wrapper1 div.header1 a.logoLink {
+    background-image: url("images/seekvic/frame_header_logo_bg.png");
+    background-repeat: no-repeat;
+    border: 0 none;
+    display: block;
+    float: left;
+    height: 130px;
+    left: -125px;
+    position: relative;
+    text-decoration: none;
+    width: 526px;
+}
+
+fieldset, img.logo1, a:hover img.logo1 {
+    border: 0 none;
+    margin: 0 ;
+    background: tranparent;
+    padding: 0px;
+}
+
+div.header_links {
+    background-repeat: no-repeat;
+    display: block;
+    float: right;
+    margin-top: 60px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    width: auto;
+}
+div.header_link {
+    display: block;
+    float: left;
+    height: 46px;
+    margin-left: 28px;
+    overflow-y: hidden;
+    text-align: left;
+    width: auto;
+}
+a.glow_link {
+    color: #818181;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: auto;
+}
+a.glow_link span.glow_arrow_r {
+    background-image: url("images/seekvic/ui_glowarrow_lrg.png");
+    background-position: -46px 0;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 46px;
+    width: 46px;
+}
+a.glow_link span.glow_text {
+    display: block;
+    float: left;
+    padding-top: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+    }
+a.glow_link span.glow_title {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial,Helvetica,sans-serif;
+    }
+         a.glow_link:hover {
+    color: rgb(124, 183, 42);
+}
+
+div.header_link {
+    display: block;
+    float: left;
+    height: 46px;
+    margin-left: 28px;
+    overflow-y: hidden;
+    text-align: left;
+    width: auto;
+}
+
+
+
+div.wrapper1 div.nav_wrap {
+    background-image: url("images/seekvic/ui_mm_tile.png");
+    background-repeat: repeat-x;
+    clear: both;
+    height: 38px;
+    margin-bottom: -4px;
+    position: relative;
+    z-index: 900;
+}
+div.wrapper1 div.nav_wrap_wrap {
+    margin: 0 auto;
+    position: relative;
+    width: 980px;
+}
+div.wrapper1 ul.navbar {
+    float: left;
+    height: 34px;
+    padding: 0;
+    width: auto;
+    margin: -.18em
+}
+div.wrapper1 ul.navbar li.navlink1 {
+    background-image: url("images/seekvic/ui_mm_div.png");
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 34px;
+    list-style: none outside none;
+    margin: 0;
+    padding-left: 2px;
+    position: relative;
+}
+div.wrapper1 ul.navbar li.navlink1 a:hover, div.wrapper1 ul.navbar li.navlink1 a.menuActived:link, div.wrapper1 ul.navbar li.navlink1 a.menuActived:active, div.wrapper1 ul.navbar li.navlink1 a.menuActived:visited, div.wrapper1 ul.navbar li.navlink1 a.menuActived:hover {
+    background-color: #FFFFFF;
+    color: #7CB72A;
+}
+div.wrapper1 ul.navbar li.navlink1 a:link, div.wrapper1 ul.navbar li.navlink1 a:active, div.wrapper1 ul.navbar li.navlink1 a:visited, div.wrapper1 ul.navbar li.navlink1 a:hover {
+    color: #41423F;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    height: 34px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 20px 0 18px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+div.wrapper1 ul.navbar li.navlink1 a span {
+    display: block;
+    margin-top: 16px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+ul.navbar li.navlink1 span.mm_indi {
+    background-image: url("images/seekvic/ui_mm_indi.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 11px;
+    left: 50%;
+    margin-left: -14px;
+    position: absolute;
+    width: 25px;
+    z-index: 999 !important;
+}
+
+
+div.wrapper1 div.navbar_right {
+    float: right;
+    height: 34px;
+    padding: 0;
+    width: auto;
+}
+
+ div.wrapper1 div.search_wrap {
+    background-image: url("images/seekvic/frame_search_tile.png");
+    background-repeat: repeat-x;
+    height: 80px;
+    position: relative;
+    text-align: left;
+}
+
+   a.logoLink:hover {
+     background: transparent;
+   }
+ .pop-front-title {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-left: 10px;
+ }
+ .pop-front-company {
+    color: #800000;
+    font-weight: bold;
+
+ }
+.pop-front-tax {
+   text-align: left;
+    margin-left:120px;
+}
+.nd-region-footer {
+    border-bottom: 1px solid #DCDCDC;
+    clear: both;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.pop-front-img  {
+  margin: 0 0 0 5px;
+}
+ .pop-front-date{
+    color: #800000;
+    font-weight: bold;
+    margin-left: 10px;
+ }
+
+
+ .taxon-img  {
+  margin: 0 0 0 5px;
+}
+.taxon-date{
+    margin-left: 10px;
+    font-weight: bold;
+ }
+.taxon-title {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-left: 10px;
+ }
+ .taxon-tax {
+    margin-top: 12px;
+    text-align: right;
+}
+.taxon-company {
+    color: #800000;
+    font-weight: bold;
+ }
+.taxo-page .nd-sidebar-left .nd-region-middle {
+    margin-left: 23%;
+}
+.front-ent .nd-sidebar-left .nd-region-middle { margin-left:36%;}
