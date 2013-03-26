@@ -1,11 +1,11 @@
-core = 7.x
+core = 6.x
 api = 2
 
 ;Core
 projects[drupal][type] = core
-projects[drupal][version] = 7.21
+projects[drupal][version] = 6.28
 
 ;Install profile
-projects[mysite][type] = profile
-projects[mysite][download][type] = git
-projects[mysite][download][url] = git://github.com/drupelmar/mysite.com.git
+projects[elmar][type] = profile
+projects[elmar][download][type] = git
+projects[elmar][download][url] = git://github.com/drupelmar/elmar.mobi.git
